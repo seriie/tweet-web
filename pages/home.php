@@ -1,5 +1,4 @@
 <?php include './template/header.php' ?>
 <body>
     
-</body>
-</html>
+<?php include './template/footer.php' ?>

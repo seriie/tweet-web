@@ -8,8 +8,13 @@
 </head>
 <body>
   <header class="fixed flex items-center justify-between top-0 right-0 left-0 p-4 shadow-md bg-indigo-600 shadow-indigo-500">
-    <h1>TweetWeet</h1>
+    <h1 class="text-xl font-medium text-indigo-300 cursor-pointer">TweetWeet</h1>
     <div>
-      <img class="w-10 h-10 rounded-full bg-cover border-2 border-indigo-300" src="https://i.pinimg.com/736x/f2/d0/55/f2d0558b0d99dad27af2f399e797d707.jpg" alt="">
+      <img class="profile-img cursor-pointer w-10 h-10 rounded-full bg-cover border-2 border-indigo-300" src="https://i.pinimg.com/736x/f2/d0/55/f2d0558b0d99dad27af2f399e797d707.jpg" alt="">
+      <div class="profile-dropdown absolute invisible p-1 flex flex-col right-4 text-slate-100 border-2 border-indigo-800 bg-indigo-600 rounded-md">
+        <span class="p-2 cursor-pointer hover:bg-indigo-300 rounded-t-md">Profile</span>
+        <span class="p-2 cursor-pointer hover:bg-indigo-300">Settings</span>
+        <span class="p-2 cursor-pointer hover:bg-indigo-300 rounded-b-md">Logout</span>
+      </div>
     </div>
   </header>
